@@ -1,0 +1,6 @@
+@portal_oficina.Api_HostAddress = http://localhost:5274
+
+GET {{portal_oficina.Api_HostAddress}}/
+Accept: application/json
+
+###

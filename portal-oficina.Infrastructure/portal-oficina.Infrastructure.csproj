@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>portal_oficina.Infrastructure</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\portal-oficina.Application\portal-oficina.Application.csproj" />
+    <ProjectReference Include="..\portal-oficina.Core\portal-oficina.Core.csproj" />
+    <ProjectReference Include="..\portal-oficina.Domain\portal-oficina.Core.csproj" />
+  </ItemGroup>
+
+</Project>
