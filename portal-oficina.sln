@@ -20,9 +20,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "portal-oficina.Application.Tests", "tests\portal-oficina.Application.Tests\portal-oficina.Application.Tests.csproj", "{8E8D7EEC-39E6-4069-8758-4D1BA83D3295}"
 EndProject
 Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -105,6 +102,9 @@ Global
 		{8E8D7EEC-39E6-4069-8758-4D1BA83D3295}.Release|x86.ActiveCfg = Release|Any CPU
 		{8E8D7EEC-39E6-4069-8758-4D1BA83D3295}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9E5A25A5-AA14-4C67-9042-ADF2784B2083} = {E9BFFF83-6D80-40E5-8B14-1AB7AAEB1C4C}
 		{7C87AD8B-F1D0-4690-B1B6-76528F361CA5} = {E9BFFF83-6D80-40E5-8B14-1AB7AAEB1C4C}
@@ -112,5 +112,8 @@ Global
 		{F9F7479F-A491-49CF-86B2-3CAFC3C614A0} = {E9BFFF83-6D80-40E5-8B14-1AB7AAEB1C4C}
 		{145EA04E-526E-4E2E-814F-658F2857D2C3} = {244B3D23-1196-49CA-8B3B-4CF888F13E09}
 		{8E8D7EEC-39E6-4069-8758-4D1BA83D3295} = {244B3D23-1196-49CA-8B3B-4CF888F13E09}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E83C5E97-BA62-4B30-A7B1-7A3B5C78E465}
 	EndGlobalSection
 EndGlobal
